@@ -12,7 +12,7 @@ body{
 
 .header-cap{
     text-align: center;
-    /* text-decoration: none; */
+    z-index: 10;
     box-sizing: border-box;
     background-color: white;
     color: #804000;
@@ -681,6 +681,18 @@ ul{
 }
 
 /* EMPIEZA SECCION FAQ */
+.zindex{
+    z-index: 1;
+}
+
+.FAQ-nuevo{
+    display: flex;
+    width: 100vw;
+}
+
+.FAQ-nuevo section{
+    width: 50%;
+}
  
     .FAQ{
         margin-top: 100px;
