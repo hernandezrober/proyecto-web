@@ -12,7 +12,7 @@ body{
 
 .header-cap{
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     box-sizing: border-box;
     background-color: white;
     color: #804000;
@@ -41,6 +41,7 @@ body{
 .header-cap ul{
     display: flex;
     align-items: center;
+    list-style-type: none;
 }
 
 .header-cap a{
@@ -53,6 +54,7 @@ body{
 
 .footer-cap{
     box-sizing: border-box;
+    position: bottom;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
