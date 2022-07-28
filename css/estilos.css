@@ -9,7 +9,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.nav-item-2 a{
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #804000;
+    font-family: 'Bebas Neue';
+}
 
+
+.header-cap2 h1{
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;
+}
 .header-cap{
     text-align: center;
     z-index: 10;
@@ -692,6 +706,7 @@ ul{
 
 .FAQ-nuevo section{
     width: 50%;
+    padding: 24px;
 }
  
     .FAQ{
@@ -708,9 +723,7 @@ ul{
 
     .FAQ-2{
         width: 25%;
-        height: 25%;
         margin: 24px;
-        text-align: justify;
         color: #804000;
         background-color: white;  
     }
@@ -727,22 +740,11 @@ ul{
         padding: 32px;
     }
 
-    .formulario-faq{
-        font-family: 'Bree Serif', serif;
-        font-size: 16px;
-        width: 25%;
-        height: 25%;
-        margin: 24px;
-        background-color:white;
-        color: black
-    }
-
     .doc-socio{
         font-family: 'Bree Serif', serif;
         text-align: center;
-        padding: 48px;
-        width: 50%;
-        height: 50%;
+        padding: 24px;
+        width: 25%;
         margin: 24px;
         background-color:white;
         color: #804000;
@@ -761,4 +763,29 @@ ul{
         text-align: center;
         font-size: 18px;
         padding: 8px;
+    }
+
+    .FAQ-nuevo-bis{
+        width: 100vw;
+        display: flex;
+    }
+    .FAQ-2-bis{
+        width: 50%;
+        margin: 24px;
+        color: #804000;
+        background-color:white;  
+        justify-content: center;
+        align-items: center;
+    }
+    .FAQ-2-bis h3{
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+        font-size: 36px;
+        padding: 16px; 
+    }
+    .FAQ-2-bis p{
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+        font-size: 18px;
+        padding: 16px; 
     }

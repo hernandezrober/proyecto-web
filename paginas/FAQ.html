@@ -54,7 +54,7 @@
     </div>
     
         <section class="d-flex justify-content-center align-items-center zindex">
-            <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+            <div class="card shadow col-xs-12 col-sm-12 col-md-12 col-lg-12   p-4"> 
                 <div class="mb-4 d-flex justify-content-start align-items-center">
                   
                     <h4>  <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
@@ -74,20 +74,25 @@
                             </div>
                         </div>
                         <div class="mb-4">
+                            <label for="documento"><i class="bi bi-person-badge-fill"></i> DNI o Pasaporte</label>
+                            <input type="number" class="form-control" name="documento" id="documento" placeholder= "ej: 22445566" required>
+                            <div class="documento"></div>
+                        </div>
+                        <div class="mb-4">
                             <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
                             <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: gpmcheco@mail.com" required>
                             <div class="correo text-danger"></div>
-                            
-                        </div> 
+                        </div>  
                         <div class="mb-4">
                             <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
                             <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
                             <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
+                            <input type="radio" class="form-check-input" name="sexo"  value="sin-especificar" > Sin especificar
                             <div class="sexo text-danger"></div>
                         </div>  
                         <div class="mb-4">
                             <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
-                            <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
+                            <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: ¡Hola! Quiero asociarme al Club Atlético Platense."></textarea>
                             <div class="mensaje text-danger"></div>
                         </div> 
                         
@@ -101,46 +106,31 @@
                 </div>
         
         </section>
-</div>
-    
-    <!-- <form class="formulario-faq">
-    <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre y Apellido" required>
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Ingrese su email" required>
-    </div>
-    <div>
-        <label for="numero">Número de Teléfono</label>
-        <input type="number" id="numero" name="numero" placeholder="Ingrese su número de teléfono" required>
-    </div>
-    <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
-    <input type="submit" value="enviar">
-</form> -->
-<div class="doc-socio">
-    <h3>¿Qué documentación debo presentar para hacerme socio/a?</h3>
-    <p>Sólo debes traer una foto 4x4, DNI y tendrás que completar planillas con información básica.</p>
-    <h3>¿Cual es el horario de atención de la oficina de socios?</h3>
-    <p>El horario de atención de la oficina de socios, en la sede social de Vicente López, es de lunes a viernes de 12:00 a 20:00 hs. y sábados de 9:00 a 12:00 hs.</p>
-      
-</div>
-<div class="doc-socio">
-    <h3>¿Cuáles son los medios de pago disponibles?</h3>
-    <img src="../imagenes/medios-de-pago.jpg" alt="medios-de-pago" width="500" height="300">
-</div>
-<div class="doc-socio">
-    <h3> ¿Cómo hago para adherirme al débito automático?</h3>
-    <img src="../imagenes/debito-auto.jpg" alt="debito-auto" width="550" height="250">
-</div>
-<div class="doc-socio">
-    <h3>¿Cuales son las vías de contacto con la oficina de socios?</h3>
-    <img src="../imagenes/whatsapp-cap-696x392.jpg" alt="whatsapp-cap-696x392" width="550" height="250">
+        <div class="doc-socio">
+            <h3>¿Qué documentación debo presentar para hacerme socio/a?</h3>
+            <p>Sólo debes traer una foto 4x4, DNI y tendrás que completar planillas con información básica.</p>
+            <h3>¿Cual es el horario de atención de la oficina de socios?</h3>
+            <p>El horario de atención de la oficina de socios, en la sede social de Vicente López, es de lunes a viernes de 12:00 a 20:00 hs. y sábados de 9:00 a 12:00 hs.</p>
+              
+        </div>
 </div>
 
-
-
+<div class="FAQ-nuevo-bis">
+    <div class="FAQ-2-bis">
+        <h3>¿Cuáles son los medios de pago disponibles?</h3>
+        <img src="../imagenes/medios-de-pago.jpg" alt="medios-de-pago" width="500" height="300">
+    </div>
+    <div class="FAQ-2-bis">
+        <h3>¿Cómo hago para adherirme al débito automático?</h3>
+        <img src="../imagenes/debito-auto.jpg" alt="debito-auto" width="550" height="250"> 
+    </div>
+  </div>
+</div>
+  <div class="FAQ-nuevo-bis">
+    <div class="FAQ-2-bis">
+        <h3>¿Cuales son las vías de contacto con la oficina de socios?</h3>
+        <img src="../imagenes/whatsapp-cap-696x392.jpg" alt="whatsapp-cap-696x392" width="550" height="250">
+    </div>
 </main>
 <footer class="footer-cap">
     <div>
