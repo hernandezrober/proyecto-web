@@ -121,52 +121,32 @@ body{
     text-align: center;
     color: white;  
 }
-
-.inicio-fixture{
-    border: 4px solid black;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-    text-align: center;
-    line-height: 150px;
-}
-
-.inicio-fixture h2{
-    text-align: center;
-    width: 100%;
-    height: 15%;
-    padding-top: 1px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 1px;
-    background-color: #804000;
-    color: white;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: 'Bree Serif', serif;  
-}
-
-.inicio-fixture img{
+.row{
+    padding: 10px;
+    }
+    
+    .col{
     margin: 30px;
+    }
+.inicio-fixture{
+    background-color: white;
+}
+.inicio-fixture h2{
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;
 }
 
 .inicio-pedraza{
-    border: 4px solid black;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-    text-align: center;
-    width: 200px;
-    height: 650px;
+    background-color: white;
 }
 
 .inicio-pedraza h2 {
-    text-align: center;
-    padding-top: 1px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 1px;
-    background-color: #804000;
-    color: white;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-family: 'Bree Serif', serif;  
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
 }
 
 .inicio-pedraza p {
@@ -179,32 +159,25 @@ body{
 
 .inicio-pedraza a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 30px;
     text-transform: uppercase;
     font-family: 'Bree Serif', serif; 
 
 }
 .inicio-video{
-    border: 4px solid black;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-    text-align: center;
-    line-height: 150px;
-    width: 600px;
-    height: 500px;
+    background-color: white;
 }
 
 .inicio-video h2{
-    align-items: center;
-    background-color: #804000;
-    color: white;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-family: 'Bree Serif', serif;  
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
 }
 
 .inicio-video iframe{
-    padding-top: 50px;
+    padding: 16px;
 }
 
 .inicio-asociate{
@@ -225,17 +198,6 @@ body{
     text-decoration: none;
 }
 
-.grid-layout-inicio{
-    gap: 60px;
-    display: grid;
-    min-height: 100vh;
-    grid-template-columns: auto auto auto;
-    width: 90%;
-    margin: 0 auto;
-    background: transparent;
-    padding: 20px;
-}
-
 /* EMPIEZA SECCION NOTICIAS */
 
 .noticia-menu{
@@ -248,6 +210,40 @@ body{
     font-size: 48px;
     text-align: center;
     color: white;  
+}
+
+.cronica{
+    display: flex;
+    width: 50%;
+}
+
+.noticia-base{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.noticia-base h2 {
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
+}
+
+.noticia-base li {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: 16px;
+    font-family: 'Bree Serif', serif;
+}
+.noticia-base p {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: 16px;
+    font-family: 'Bree Serif', serif;
 }
 .grid-layout-noticia{
     display: grid;
@@ -528,43 +524,46 @@ ul{
     color: white;  
 }
 
-.plantel-actual{
-    background-color: transparent;
-    color: white;
-    width: 90%;
-    height:90%;
-    margin: auto;
-    padding: 48px;
-    border: 2px solid white;
-    display: block
+.plantel{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
+.plantel h2 {
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
 }
-.plantel-actual h1{
-    font-family: 'Bree Serif', serif;
-    font-size: 80px;
+
+.plantel li {
     text-align: center;
-}
-.plantel-actual ol{
-    font-family: 'Bree Serif', serif;
+    color: black;
     font-size: 18px;
-}
-.plantel-actual li{
-    text-align: justify
-}
-
-
-.imagenes-plantel{
-    text-align: center;
-    padding: 12px;
     font-family: 'Bree Serif', serif;
+    list-style-type: none;
+}
+.plantel p {
+    text-align: center;
+    color: black;
     font-size: 18px;
-    color: white;
+    margin: 16px;
+    font-family: 'Bree Serif', serif;
 }
 
-.video-media-day{
-    text-align: center;
-    padding: 32px;
-    margin-bottom:48px;
+.plantel-dt{
+    background-color: white;
+    display: flex;
+}
+.plantel-dt h2{
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* EMPIEZA SECCION ASOCIATE */
@@ -589,109 +588,54 @@ ul{
     font-size: 48px;
     margin-top: 100px;
 }
-.grid-layout-asociate{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    justify-content: space-around;
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: transparent;
-    padding: 20px;
 
+.asociate-pleno-activo{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
-.asociate-pleno{
-    width: 550px;
-    height: 550px;
-    border: 4px solid black;
-    background-color: lightgray;
-    text-align: center;
-    padding: 50px;
-    margin: 15px;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-   
+.asociate-pleno-activo h2 {
+    font-size: 40px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
 }
 
-.asociate-pleno h4{
+.asociate-pleno-activo li {
     text-align: center;
-    padding-top: 1px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 1px;
-    background-color: #804000;
-    color: white;
-    font-size: 30px;
-    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    margin: 16px;
+    font-family: 'Bree Serif', serif;
+}
+.asociate-pleno-activo p {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: 16px;
     font-family: 'Bree Serif', serif;
 }
 
-.asociate-pleno ul{
+.asociate-pleno-activo2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.asociate-pleno-activo2 p {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin: 16px;
     font-family: 'Bree Serif', serif;
-    list-style: square;
-    padding: 8px;
-    margin: 8px;
-    line-height: 20px;
 }
-.asociate-activo{
-    width: 550px;
-    height: 450px;
-    border: 4px solid black;
-    background-color: lightgray;
-    text-align: center;
-    padding: 50px;
-    margin: 15px;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-   
-}
-.asociate-activo h4{
-    text-align: center;
-    padding-top: 1px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 1px;
-    background-color: #804000;
-    color: white;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: 'Bree Serif', serif; 
-}
-
-.asociate-activo ul{
-    font-family: 'Bree Serif', serif;
-    list-style: square;
-    padding: 8px;
-    margin: 8px;
-    line-height: 20px;
-}
-.asociate-precios{
-    width: 550px;
-    height: 700px;
-    border: 4px solid black;
-    background-color: lightgray;
-    text-align: center;
-    padding: 50px;
-    margin: 15px;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-   
-}
-.asociate-precios2{
-    width: 550px;
-    height: 500px;
-    border: 4px solid black;
-    background-color: lightgray;
-    text-align: center;
-    padding: 50px;
-    margin: 15px;
-    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-   
-}
-
-.asociate-precios2 h4{
-    font-family: 'Bree Serif', serif;
-    font-size: 24px;
-    
+.asociate-pleno-activo2 h2 {
+    font-size: 60px;
+    color: #804000;
+    font-family: 'Bebas Neue', cursive;
+    padding: 16px;  
 }
 
 /* EMPIEZA SECCION FAQ */
