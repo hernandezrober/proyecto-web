@@ -515,6 +515,10 @@ ul{
     width: 35%;
 }
 /* EMPIEZA SECCION FUTBOL */
+
+.list-flex{
+    display: flex;
+}
 .plantel-menu{
     margin-top: 100px;
     margin-left: 24px;
