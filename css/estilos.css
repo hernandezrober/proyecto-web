@@ -9,57 +9,39 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav-item-2 a{
+/* .nav-item-2 a{
     padding: 12px;
     text-decoration: none;
     font-size: 24px;
     color: #804000;
     font-family: 'Bebas Neue';
-}
+} */
 
 
-.header-cap2 h1{
+/* .header-cap2 h1{
     font-size: 40px;
     color: #804000;
     font-family: 'Bebas Neue', cursive;
     padding: 16px;
-}
+} */
 .header-cap{
-    text-align: center;
     z-index: 10;
     box-sizing: border-box;
-    background-color: white;
-    color: #804000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0 5%;
-    transition: 0.5s;
-    border: solid #804000 2px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #804000;
-    font-family: 'Bebas Neue', cursive;
 }
-.header-cap div{
+/* .header-cap div{
     display: flex;
     align-items: center;
     font-size: 24px;
    
-}
-.header-cap ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-}
+} */
+
 
 .header-cap a{
-   padding: 12px;
+   padding: 5px;
    text-decoration: none;
    font-size: 24px;
    color: #804000;
@@ -739,4 +721,8 @@ ul{
         text-align: center;
         font-size: 18px;
         padding: 16px; 
+    }
+
+    .header.cap nav{
+        align-items: left;
     }
