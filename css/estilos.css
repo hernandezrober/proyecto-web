@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     background-color: #804000;
     background-image: url(../imagenes/fondo-pantalla-cap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 /* .nav-item-2 a{
     padding: 12px;
     text-decoration: none;
