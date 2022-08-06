@@ -41,4 +41,13 @@ p {
 
 iframe {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
 }/*# sourceMappingURL=estilos.css.map */

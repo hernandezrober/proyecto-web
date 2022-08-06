@@ -726,3 +726,15 @@ ul{
     .header.cap nav{
         align-items: left;
     }
+
+    .sitemap-cap{
+        margin-top: 100px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+        padding: 24px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 48px;
+        text-align: center;
+        color: white;
+    }
