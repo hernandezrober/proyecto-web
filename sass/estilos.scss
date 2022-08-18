@@ -60,6 +60,7 @@ list-style: none;
 
 .card{
 padding: 15px;
+margin: 15px;
     h1{
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -67,3 +68,10 @@ padding: 15px;
         background-color: white;
     }
 }
+
+.centrar-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
